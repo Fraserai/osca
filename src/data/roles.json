@@ -1,0 +1,182 @@
+[
+  {
+    "id": "revenue-ops-analyst",
+    "title": "Revenue Operations Analyst",
+    "department": "Go-to-Market",
+    "location": "Austin, TX",
+    "salaryUsd": 118000,
+    "keyTasks": [
+      "Pipeline hygiene audits",
+      "Forecast variance analysis",
+      "Weekly board KPI snapshot"
+    ],
+    "tools": ["Salesforce", "HubSpot", "Looker", "Google Sheets"],
+    "apiProfile": {
+      "avgInputTokens": 2200,
+      "avgOutputTokens": 950,
+      "callsPerDay": 52
+    }
+  },
+  {
+    "id": "customer-support-manager",
+    "title": "Customer Support Manager",
+    "department": "Support",
+    "location": "Remote (US)",
+    "salaryUsd": 104000,
+    "keyTasks": [
+      "Ticket triage oversight",
+      "Escalation routing",
+      "CSAT trend reviews"
+    ],
+    "tools": ["Zendesk", "Notion", "Slack", "Loom"],
+    "apiProfile": {
+      "avgInputTokens": 1800,
+      "avgOutputTokens": 700,
+      "callsPerDay": 140
+    }
+  },
+  {
+    "id": "technical-recruiter",
+    "title": "Technical Recruiter",
+    "department": "Talent",
+    "location": "Denver, CO",
+    "salaryUsd": 112000,
+    "keyTasks": [
+      "Candidate sourcing",
+      "Interview scheduling",
+      "Scorecard synthesis"
+    ],
+    "tools": ["Greenhouse", "LinkedIn Recruiter", "Gem", "Calendar"],
+    "apiProfile": {
+      "avgInputTokens": 2000,
+      "avgOutputTokens": 860,
+      "callsPerDay": 80
+    }
+  },
+  {
+    "id": "finance-controller",
+    "title": "Finance Controller",
+    "department": "Finance",
+    "location": "Chicago, IL",
+    "salaryUsd": 156000,
+    "keyTasks": [
+      "Monthly close review",
+      "Spend anomaly checks",
+      "Audit trail documentation"
+    ],
+    "tools": ["NetSuite", "Excel", "Rippling", "Bill.com"],
+    "apiProfile": {
+      "avgInputTokens": 2600,
+      "avgOutputTokens": 1200,
+      "callsPerDay": 36
+    }
+  },
+  {
+    "id": "content-marketing-lead",
+    "title": "Content Marketing Lead",
+    "department": "Marketing",
+    "location": "New York, NY",
+    "salaryUsd": 128000,
+    "keyTasks": [
+      "Campaign brief creation",
+      "Editorial calendar planning",
+      "SEO refresh recommendations"
+    ],
+    "tools": ["Ahrefs", "Webflow", "GA4", "Figma"],
+    "apiProfile": {
+      "avgInputTokens": 2400,
+      "avgOutputTokens": 1500,
+      "callsPerDay": 64
+    }
+  },
+  {
+    "id": "legal-operations-specialist",
+    "title": "Legal Operations Specialist",
+    "department": "Legal",
+    "location": "San Francisco, CA",
+    "salaryUsd": 149000,
+    "keyTasks": [
+      "Contract redline triage",
+      "Clause consistency checks",
+      "Signature packet prep"
+    ],
+    "tools": ["Ironclad", "DocuSign", "Notion", "Gmail"],
+    "apiProfile": {
+      "avgInputTokens": 3200,
+      "avgOutputTokens": 1350,
+      "callsPerDay": 44
+    }
+  },
+  {
+    "id": "it-helpdesk-lead",
+    "title": "IT Helpdesk Lead",
+    "department": "IT",
+    "location": "Seattle, WA",
+    "salaryUsd": 98000,
+    "keyTasks": [
+      "Device incident triage",
+      "Knowledge base updates",
+      "SLA breach prevention"
+    ],
+    "tools": ["Jira Service Management", "Okta", "Intune", "Slack"],
+    "apiProfile": {
+      "avgInputTokens": 1500,
+      "avgOutputTokens": 560,
+      "callsPerDay": 190
+    }
+  },
+  {
+    "id": "product-operations-manager",
+    "title": "Product Operations Manager",
+    "department": "Product",
+    "location": "Boston, MA",
+    "salaryUsd": 142000,
+    "keyTasks": [
+      "Roadmap status rollups",
+      "User feedback clustering",
+      "Release readiness checklists"
+    ],
+    "tools": ["Linear", "Amplitude", "Notion", "Miro"],
+    "apiProfile": {
+      "avgInputTokens": 2300,
+      "avgOutputTokens": 980,
+      "callsPerDay": 68
+    }
+  },
+  {
+    "id": "sales-enablement-manager",
+    "title": "Sales Enablement Manager",
+    "department": "Sales",
+    "location": "Atlanta, GA",
+    "salaryUsd": 133000,
+    "keyTasks": [
+      "Playbook refreshes",
+      "Call quality scoring",
+      "Objection handling libraries"
+    ],
+    "tools": ["Gong", "Highspot", "Salesforce", "Slack"],
+    "apiProfile": {
+      "avgInputTokens": 2100,
+      "avgOutputTokens": 880,
+      "callsPerDay": 78
+    }
+  },
+  {
+    "id": "compliance-program-manager",
+    "title": "Compliance Program Manager",
+    "department": "Security & Compliance",
+    "location": "Washington, DC",
+    "salaryUsd": 165000,
+    "keyTasks": [
+      "Policy control mapping",
+      "Evidence request orchestration",
+      "Risk register updates"
+    ],
+    "tools": ["Vanta", "Jira", "Google Drive", "Confluence"],
+    "apiProfile": {
+      "avgInputTokens": 2800,
+      "avgOutputTokens": 1220,
+      "callsPerDay": 40
+    }
+  }
+]

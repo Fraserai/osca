@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --font-serif-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --font-sans-body: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif;
+  --font-mono-ui: "SFMono-Regular", "SF Mono", Menlo, Monaco, Consolas, monospace;
+  --osca-canvas: #f7f4ee;
+  --osca-surface: #ffffff;
+  --osca-border: #e5e7eb;
+  --osca-shadow: 0 18px 50px rgba(15, 23, 42, 0.07);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans-body), sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(29, 78, 216, 0.08), transparent 26%),
+    radial-gradient(circle at 80% 0%, rgba(217, 119, 6, 0.12), transparent 22%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.78), rgba(248, 250, 252, 0.92)),
+    var(--osca-canvas);
+  background-attachment: fixed;
+  color: #111827;
+}
+
+.font-serif-display {
+  font-family: var(--font-serif-display), serif;
+  font-weight: 400;
+}
+
+.osca-section {
+  animation: oscaSectionReveal 0.55s ease both;
+}
+
+.osca-fade-row {
+  animation: oscaFadeIn 0.35s ease both;
+}
+
+@keyframes oscaSectionReveal {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes oscaFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes oscaPanelIn {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.18);
+  color: #111827;
+}

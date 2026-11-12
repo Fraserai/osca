@@ -1,0 +1,104 @@
+{
+  "home": {
+    "title": "OSCA Replacement Index",
+    "url": "http://localhost:3000/",
+    "heading": "Find your occupation. See the AI pressure underneath it.",
+    "heroSnippet": "FROZEN PUBLIC BETA DATASET V1 Find your occupation. See the AI pressure underneath it. Search the full OSCA 2024 dataset, compare replaceability by role, and drill into the exact tasks that current AI can handle today versus the ones that still depend on human judgment, presence, and trust. 1,056 occupations scored 978 with full task lists Task-level AI breakdowns across the full OSCA index FIND YOUR OCCUPATION Read methodology OCCUPATIONS 1,056 1,156 in the current view MEAN SCORE 29% baseline replaceability score CRITICAL RISK 65 score 80 and above HUMAN ESSENTIAL 357 score below 20 OSCA 2024 V1.0 Last updated March 16, 2026 SCORE DISTRIBUTION Where the score clusters Reset tier filter Click a tier to filter the table. Higher scores indicate more task exposure to current AI tools. Lower scores indicate more work that still depends on physical presence, human care, or live judgment. Critical 80-100 71 High 60-79 46 Moderate 40-59 278 Low 20-39 370 Minimal 0-19 391 AUTOMATION TIMELINE When the pressure shows up Reset timeline filter NOW 7% 79 At risk today 2-3 YEARS 48% 557 Near-term risk 5+ YEARS 45% 520 Long-term safe OCCUPATION TABLE Role-by-role exposure, now with task context 1,156 ROLES IN CURRENT VIEW All risk levels Critical High Moderate Low Minimal All timeline bands Now 2-3 years 5+ years Score v Salary Title All 1 Managers 2 Professionals 3 Technicians & Trades 4 Community & Personal Service 5 Clerical & Admin 6 Sales 7 Machinery Operators & Drivers 8 Labourers CODE OCCUPATION RISK TIMELINE SCORE 561231 Data Entry Operator Salary approx. $62K/yr · 3/4 tasks",
+    "topRows": [
+      "561231 Data Entry Operator Salary approx. $62K/yr · 3/4 tasks automatable CRITICAL NOW 95",
+      "561232 Machine Shorthand Reporter Salary approx. $62K/yr · 5/5 tasks automatable CRITICAL NOW 95",
+      "561233 Word Processing Operator Salary approx. $62K/yr · 4/4 tasks automatable CRITICAL NOW 95",
+      "511231 Program or Project Administrator Salary approx. $70K/yr · 7/7 tasks automatable CRITICAL NOW 92",
+      "521234 Law Clerk Salary approx. $62K/yr · 5/6 tasks automatable CRITICAL NOW 92"
+    ]
+  },
+  "industryExpanded": {
+    "buttonText": "HIDE INDUSTRY EXPOSURE",
+    "bodyHasIndustryHeader": true
+  },
+  "search": {
+    "query": "biotechnologist",
+    "rows": [
+      "244631 Biotechnologist Salary approx. $109K/yr · 7/7 tasks automatable MODERATE 2-3 YEARS 52"
+    ]
+  },
+  "detail": {
+    "title": "Biotechnologist",
+    "url": "http://localhost:3000/?q=biotechnologist&role=244631",
+    "snippet": "OSCA 244631 · SKILL LEVEL 1 Biotechnologist MODERATE 2-3 YEARS Professionals",
+    "taskRows": 7
+  },
+  "sorting": {
+    "salarySortedTopRows": [
+      "121131 Chief Executive or Managing Director Salary approx. $168K/yr · 7/8 tasks automatable MINIMAL 5+ YEARS 12",
+      "121231 Corporate General Manager Salary approx. $168K/yr · 8/9 tasks automatable MINIMAL 5+ YEARS 18",
+      "121232 Defence Force Senior Officer Salary approx. $168K/yr · 5/6 tasks automatable MINIMAL 5+ YEARS 5",
+      "121331 Local Government Legislator Salary approx. $168K/yr · 7/7 tasks automatable MINIMAL 5+ YEARS 5",
+      "121332 Member of Parliament Salary approx. $168K/yr · 10/10 tasks automatable MINIMAL 5+ YEARS 5"
+    ]
+  },
+  "riskFilter": {
+    "applied": "Critical",
+    "rows": [
+      "231331 Copywriter Salary approx. $88K/yr · 4/5 tasks automatable CRITICAL NOW 82",
+      "231334 Technical Writer Salary approx. $88K/yr · 8/8 tasks automatable CRITICAL NOW 85",
+      "411531 Interpreter Salary approx. $78K/yr · 4/4 tasks automatable CRITICAL NOW 80",
+      "411532 Translator Salary approx. $78K/yr · 5/5 tasks automatable CRITICAL NOW 88",
+      "619134 Telemarketer Salary approx. $73K/yr · 7/8 tasks automatable CRITICAL NOW 90",
+      "511131 Contract Administrator Salary approx. $70K/yr · 5/7 tasks automatable CRITICAL NOW 86",
+      "511231 Program or Project Administrator Salary approx. $70K/yr · 7/7 tasks automatable CRITICAL NOW 92",
+      "391431 Graphic Pre-press Operator Salary approx. $68K/yr · 2/6 tasks automatable CRITICAL 5+ YEARS 80"
+    ],
+    "allRowsCriticalInSample": false
+  },
+  "timelineFilter": {
+    "applied": "Now",
+    "rows": [
+      "231331 Copywriter Salary approx. $88K/yr · 4/5 tasks automatable CRITICAL NOW 82",
+      "231334 Technical Writer Salary approx. $88K/yr · 8/8 tasks automatable CRITICAL NOW 85",
+      "411531 Interpreter Salary approx. $78K/yr · 4/4 tasks automatable CRITICAL NOW 80",
+      "411532 Translator Salary approx. $78K/yr · 5/5 tasks automatable CRITICAL NOW 88",
+      "619134 Telemarketer Salary approx. $73K/yr · 7/8 tasks automatable CRITICAL NOW 90",
+      "511131 Contract Administrator Salary approx. $70K/yr · 5/7 tasks automatable CRITICAL NOW 86",
+      "511231 Program or Project Administrator Salary approx. $70K/yr · 7/7 tasks automatable CRITICAL NOW 92",
+      "551131 Call or Contact Centre Operator Salary approx. $65K/yr · 6/6 tasks automatable CRITICAL NOW 85"
+    ],
+    "allRowsNowInSample": false
+  },
+  "mobile": {
+    "overflow": false,
+    "rowCount": 50,
+    "firstRows": [
+      "561231 CRITICAL Data Entry Operator Salary approx. $62K/yr · 3/4 tasks automatable 95 OPEN",
+      "561232 CRITICAL Machine Shorthand Reporter Salary approx. $62K/yr · 5/5 tasks automatable 95 OPEN",
+      "561233 CRITICAL Word Processing Operator Salary approx. $62K/yr · 4/4 tasks automatable 95 OPEN"
+    ],
+    "closeVisible": true
+  },
+  "methodology": {
+    "title": "Methodology | OSCA Replacement Index",
+    "heading": "Methodology",
+    "snippet": "BACK TO INDEX Methodology This public beta is designed to help general readers understand how exposed different occupations may be to current AI tools. It is a directional reference, not a prediction engine. FROZEN PUBLIC BETA DATASET V1 LAST UPDATED MARCH 16, 2026 WHAT THIS INDEX DOES It compares occupations on a shared scale, overlays approximate salary data, maps each role to an automation timeline band, and now shows task-level AI capability assessments inside the detail view. WHAT IT DOES NOT DO It does not forecast layoffs, career outcomes, labour demand, or policy decisions. It also does not measure the social value of human care, trust, or physical presence beyond the score framework. TASK-LEVEL ASSESSMENT MODEL For occupations with an OSCA Main Tasks list, the app splits the official task string on semicolons and evaluates each task against a March 2026 AI capability map. Each task is marked as yes, partial, or no, then assigned to one capability bucket with example tools. Occupations without a task list fall back to the OSCA lead statement. CAPABILITY WHAT IT COVERS REFERENCE TOOLS Text Generation & Writing Reports, emails, copy, summaries, translations Claude Sonnet 4.6, GPT-5.2, Gemini 3.1 Pro Data Analysis & Research Spreadsheets, data cleaning, statistical analysis, market research Claude with Code Execution, GPT-5.2 Code Interpreter, Gemini 3.1 Pro Code &"
+  },
+  "runtime": {
+    "pageErrors": [],
+    "consoleMessages": [
+      {
+        "type": "info",
+        "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+      },
+      {
+        "type": "error",
+        "text": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>\n      <HTTPAccessFallbackErrorBoundary pathname=\"/\" notFound={<SegmentViewNode>} forbidden={undefined} ...>\n        <RedirectBoundary>\n          <RedirectErrorBoundary router={{...}}>\n            <InnerLayoutRouter url=\"/\" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>\n              <SegmentViewNode type=\"page\" pagePath=\"page.tsx\">\n                <SegmentTrieNode>\n                <Home>\n                  <main className=\"mx-auto ma...\">\n                    <AgentIndexApp roles={[...]} industryRisk={[...]} initialView={{q:\"\",group:\"All\", ...}}>\n                      <div className=\"pb-16\">\n                        <section className=\"osca-secti...\">\n                          <div>\n                          <div className=\"relative z...\">\n                            <div>\n                            <h1>\n                            <p>\n                            <div>\n                            <div className=\"mt-8 round...\">\n                              <label>\n                              <div className=\"mt-3 flex ...\">\n                                <input\n                                  type=\"text\"\n                                  value=\"\"\n                                  onChange={function onChange}\n                                  placeholder=\"Search by role, code, group, or task...\"\n                                  className=\"min-w-0 flex-1 rounded-[18px] border border-slate-200 bg-slate-100 px-5 p...\"\n-                                 style={{caret-color:\"transparent\"}}\n                                >\n                                ...\n                            ...\n                        ...\n              ...\n            ...\n"
+      },
+      {
+        "type": "log",
+        "text": "[Fast Refresh] rebuilding"
+      },
+      {
+        "type": "log",
+        "text": "[Fast Refresh] done in 3146ms"
+      }
+    ]
+  }
+}

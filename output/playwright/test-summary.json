@@ -1,0 +1,87 @@
+{
+  "home": {
+    "title": "OSCA Replacement Index",
+    "url": "http://localhost:3000/",
+    "heading": "OSCA Replacement Index",
+    "bodySnippet": "OSCA Replacement Index OSCA 2024 V1.0 Explore how exposed each Australian occupation may be to current AI tools. Search a role, compare approximate salary exposure, and see how the baseline score changes across occupations and industries. Read methodology FROZEN PUBLIC BETA DATASET V1 HOW TO USE THIS BETA These scores are directional estimates of task-level automation exposure. They do not predict layoffs, wages, hiring, or public policy outcomes, and they should not be treated as career advice on their own. DATA SOURCES / LAST UPDATED LAST UPDATED MARCH 16, 2026 ABS OSCA 2024 v1.0 occupation structure and descriptions ABS salary mapping derived from Employee Earnings and Hours data Frozen baseline automation score dataset used for the public beta ANZSIC industry workforce mix assumptions for exposure estimates OCCUPATIONS SHOWN 1,156 of 1,156 total roles MEAN SCORE 32% baseline automation score CRITICAL RISK 71 score 80+ HUMAN-LED ROLES 391 score below 20 AVG POTENTIAL SAVINGS $26K roles with positive savings AVG SALARY EXPOSURE $27K average per occupation MEDIAN SALARY $78K annual estimate AVG AI COST $928 annual baseline operating cost SCORE DISTRIBUTION Higher scores suggest that more of a role's current tasks look automatable with today's AI tools. Lower scores suggest the work remains more dependent on physical presence, live judgment, or human care. 0-19 (391) 20-39 (370) 40-59 (278) 60-79 (46) 80-100 (71) INDUSTRY EXPOSURE These industry estimates use approximate workforce mixes across ANZSIC divisions. They are designed to show relative exposure, not precise",
+    "topRows": [
+      "561231 Data Entry Operator Est. salary $62K/yr / SL4Potential savings $58K CRITICAL 95 >",
+      "561232 Machine Shorthand Reporter Est. salary $62K/yr / SL4Potential savings $58K CRITICAL 95 >",
+      "561233 Word Processing Operator Est. salary $62K/yr / SL4Potential savings $58K CRITICAL 95 >",
+      "511231 Program or Project Administrator Est. salary $70K/yr / SL2Potential savings $62K CRITICAL 92 >",
+      "521234 Law Clerk Est. salary $62K/yr / SL3Potential savings $55K CRITICAL 92 >"
+    ]
+  },
+  "industryExpanded": {
+    "buttonText": "HIDE 19 INDUSTRIES",
+    "bodyHasIndustryHeader": false
+  },
+  "search": {
+    "query": "biotechnologist",
+    "rows": [
+      "244631 Biotechnologist Est. salary $109K/yr / SL1Potential savings $55K MODERATE 52 >"
+    ]
+  },
+  "modal": {
+    "title": "Biotechnologist",
+    "url": "http://localhost:3000/?q=biotechnologist&role=244631",
+    "textSnippet": "244631 Biotechnologist Professionals / Life Scientists / Skill level 1 / $109,200/yr 52 MODERATE Baseline automation score Studies the anatomy, physiology, genetics and characteristics of living organisms and isolated biological molecules to improve or develop new products and processes in a wide range of industries, including agriculture, food production and medicine. LOWER AUTOMATION EXPOSURE HIGHER AUTOMATION EXPOSURE ECONOMIC COMPARISON ANNUAL HUMAN SALARY ESTIMATE $109,200 Approximate ABS salary mapping for this occupation group POTENTIAL SAVINGS $55K 50% of the annual salary estimate after AI operating cost ESTIMATED SALARY EXPOSURE $57K 52% of the salary estimate falls inside the score range ESTIMATED AI OPERATING COST $2K $182/mo baseline for skill level 1 Read methodology Close"
+  },
+  "sorting": {
+    "salarySortedTopRows": [
+      "121131 Chief Executive or Managing Director Est. salary $168K/yr / SL1Potential savings $20K MINIMAL 12 >",
+      "121231 Corporate General Manager Est. salary $168K/yr / SL1Potential savings $29K MINIMAL 18 >",
+      "121232 Defence Force Senior Officer Est. salary $168K/yr / SL1Potential savings $8K MINIMAL 5 >",
+      "121331 Local Government Legislator Est. salary $168K/yr / SL1Potential savings $8K MINIMAL 5 >",
+      "121332 Member of Parliament Est. salary $168K/yr / SL1Potential savings $8K MINIMAL 5 >"
+    ]
+  },
+  "riskFilter": {
+    "applied": "Critical",
+    "rows": [
+      "231331 Copywriter Est. salary $88K/yr / SL1Potential savings $69K CRITICAL 82 >",
+      "231334 Technical Writer Est. salary $88K/yr / SL1Potential savings $72K CRITICAL 85 >",
+      "411531 Interpreter Est. salary $78K/yr / SL2Potential savings $60K CRITICAL 80 >",
+      "411532 Translator Est. salary $78K/yr / SL2Potential savings $66K CRITICAL 88 >",
+      "619134 Telemarketer Est. salary $73K/yr / SL5Potential savings $65K CRITICAL 90 >",
+      "511131 Contract Administrator Est. salary $70K/yr / SL2Potential savings $58K CRITICAL 86 >",
+      "511231 Program or Project Administrator Est. salary $70K/yr / SL2Potential savings $62K CRITICAL 92 >",
+      "391431 Graphic Pre-press Operator Est. salary $68K/yr / SL3Potential savings $52K CRITICAL 80 >",
+      "551131 Call or Contact Centre Operator Est. salary $65K/yr / SL4Potential savings $54K CRITICAL 85 >",
+      "551232 Switchboard Operator Est. salary $65K/yr / SL5Potential savings $51K CRITICAL 80 >"
+    ],
+    "allRowsCriticalInSample": true
+  },
+  "mobile": {
+    "overflow": false,
+    "rowCount": 50,
+    "topRows": [
+      "561231 CRITICAL Data Entry Operator Est. salary $62K/yr / SL4Potential savings $58K 95 OPEN",
+      "561232 CRITICAL Machine Shorthand Reporter Est. salary $62K/yr / SL4Potential savings $58K 95 OPEN",
+      "561233 CRITICAL Word Processing Operator Est. salary $62K/yr / SL4Potential savings $58K 95 OPEN"
+    ],
+    "generateVisible": true
+  },
+  "methodology": {
+    "title": "Methodology | OSCA Replacement Index",
+    "heading": "Methodology",
+    "snippet": "BACK TO INDEX Methodology This public beta is designed to help general readers understand how exposed different occupations may be to current AI tools. It is a directional reference, not a prediction engine. WHAT THIS INDEX DOES It compares occupations on a shared scale, overlays approximate salary data, and shows where current AI tools could be economically meaningful under simple baseline assumptions. WHAT IT DOES NOT DO It does not forecast layoffs, career outcomes, labour demand, individual productivity, or policy decisions. It also does not measure the value of human judgment, care, or social trust outside the score framework. WHAT OSCA IS OSCA is the Occupation Standard Classification for Australia. It is maintained by the ABS and gives a standard code, title, and description for occupations across the Australian workforce. This beta uses all 1,156 OSCA occupations from the 2024 v1.0 release. WHAT THE SCORE REPRESENTS The baseline automation score is a 0-100 estimate of"
+  },
+  "runtime": {
+    "pageErrors": [],
+    "consoleMessages": [
+      {
+        "type": "info",
+        "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+      },
+      {
+        "type": "log",
+        "text": "[Fast Refresh] rebuilding"
+      },
+      {
+        "type": "log",
+        "text": "[Fast Refresh] done in 279ms"
+      }
+    ]
+  }
+}
